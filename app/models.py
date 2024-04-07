@@ -58,9 +58,21 @@ def insert_product(name, image_url, price, buy_link):
 
 
 insert_product("(Refurbished) Samsung Galaxy Z Flip5 5G (Cream, 8GB RAM, 256GB Storage)",
-               "https://m.media-amazon.com/images/I/71rMdsTWkmL._AC_UY218_.jpg",
-               86864,
-               "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNDUwMzgwNzY4ODM4MDkyOjE3MTIwNTEzODk6c3BfYXRmOjMwMDE1NTQ5ODU2MTQzMjo6MDo6&url=%2FRefurbished-Samsung-Galaxy-Flip5-Storage%2Fdp%2FB0CJPJ8ZH7%2Fref%3Dsr_1_1_sspa%3Fcrid%3DWTDJI4DAOHOJ%26dib%3DeyJ2IjoiMSJ9.urohL2km_b63T36Wq3YoqcXWRZdGqLatJ-CrmP0jueQSG6mGv6COA96WQO1p19vhN0q7upElwwNUDq3bcpyFzTa8JrO1CXNAlFqwxZyUqdyLzEIlJ9aqJsn42tVGvfZSVuh_JoCS-zawQGSoAbjymMp150GKDLteS2tRTTOFu7yeHhFL3Nv-XxlaiDM1pUiWr0E7bnlCY2noiLf4oQ7PQ3ZaeMDrddyTbMQLFSMurG0.hsxadK2Xc_lSmd9DXqA4F-eNLVIL1emKuBFTRjjvZsY%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobiles%26qid%3D1712051389%26sprefix%3Dsamsung%2Bmobile%252Caps%252C215%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1")
+                "https://m.media-amazon.com/images/I/71rMdsTWkmL._AC_UY218_.jpg",
+                86864,
+                "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNDUwMzgwNzY4ODM4MDkyOjE3MTIwNTEzODk6c3BfYXRmOjMwMDE1NTQ5ODU2MTQzMjo6MDo6&url=%2FRefurbished-Samsung-Galaxy-Flip5-Storage%2Fdp%2FB0CJPJ8ZH7%2Fref%3Dsr_1_1_sspa%3Fcrid%3DWTDJI4DAOHOJ%26dib%3DeyJ2IjoiMSJ9.urohL2km_b63T36Wq3YoqcXWRZdGqLatJ-CrmP0jueQSG6mGv6COA96WQO1p19vhN0q7upElwwNUDq3bcpyFzTa8JrO1CXNAlFqwxZyUqdyLzEIlJ9aqJsn42tVGvfZSVuh_JoCS-zawQGSoAbjymMp150GKDLteS2tRTTOFu7yeHhFL3Nv-XxlaiDM1pUiWr0E7bnlCY2noiLf4oQ7PQ3ZaeMDrddyTbMQLFSMurG0.hsxadK2Xc_lSmd9DXqA4F-eNLVIL1emKuBFTRjjvZsY%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobiles%26qid%3D1712051389%26sprefix%3Dsamsung%2Bmobile%252Caps%252C215%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1")
+insert_product("motorola",
+                "https://m.media-amazon.com/images/I/71rMdsTWkmL._AC_UY218_.jpg",
+                86864,
+                "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNDUwMzgwNzY4ODM4MDkyOjE3MTIwNTEzODk6c3BfYXRmOjMwMDE1NTQ5ODU2MTQzMjo6MDo6&url=%2FRefurbished-Samsung-Galaxy-Flip5-Storage%2Fdp%2FB0CJPJ8ZH7%2Fref%3Dsr_1_1_sspa%3Fcrid%3DWTDJI4DAOHOJ%26dib%3DeyJ2IjoiMSJ9.urohL2km_b63T36Wq3YoqcXWRZdGqLatJ-CrmP0jueQSG6mGv6COA96WQO1p19vhN0q7upElwwNUDq3bcpyFzTa8JrO1CXNAlFqwxZyUqdyLzEIlJ9aqJsn42tVGvfZSVuh_JoCS-zawQGSoAbjymMp150GKDLteS2tRTTOFu7yeHhFL3Nv-XxlaiDM1pUiWr0E7bnlCY2noiLf4oQ7PQ3ZaeMDrddyTbMQLFSMurG0.hsxadK2Xc_lSmd9DXqA4F-eNLVIL1emKuBFTRjjvZsY%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobiles%26qid%3D1712051389%26sprefix%3Dsamsung%2Bmobile%252Caps%252C215%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1")
+insert_product("apple",
+                "https://m.media-amazon.com/images/I/71rMdsTWkmL._AC_UY218_.jpg",
+                86864,
+                "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNDUwMzgwNzY4ODM4MDkyOjE3MTIwNTEzODk6c3BfYXRmOjMwMDE1NTQ5ODU2MTQzMjo6MDo6&url=%2FRefurbished-Samsung-Galaxy-Flip5-Storage%2Fdp%2FB0CJPJ8ZH7%2Fref%3Dsr_1_1_sspa%3Fcrid%3DWTDJI4DAOHOJ%26dib%3DeyJ2IjoiMSJ9.urohL2km_b63T36Wq3YoqcXWRZdGqLatJ-CrmP0jueQSG6mGv6COA96WQO1p19vhN0q7upElwwNUDq3bcpyFzTa8JrO1CXNAlFqwxZyUqdyLzEIlJ9aqJsn42tVGvfZSVuh_JoCS-zawQGSoAbjymMp150GKDLteS2tRTTOFu7yeHhFL3Nv-XxlaiDM1pUiWr0E7bnlCY2noiLf4oQ7PQ3ZaeMDrddyTbMQLFSMurG0.hsxadK2Xc_lSmd9DXqA4F-eNLVIL1emKuBFTRjjvZsY%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobiles%26qid%3D1712051389%26sprefix%3Dsamsung%2Bmobile%252Caps%252C215%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1")
+insert_product("momo",
+                "https://m.media-amazon.com/images/I/71rMdsTWkmL._AC_UY218_.jpg",
+                86864,
+                "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNDUwMzgwNzY4ODM4MDkyOjE3MTIwNTEzODk6c3BfYXRmOjMwMDE1NTQ5ODU2MTQzMjo6MDo6&url=%2FRefurbished-Samsung-Galaxy-Flip5-Storage%2Fdp%2FB0CJPJ8ZH7%2Fref%3Dsr_1_1_sspa%3Fcrid%3DWTDJI4DAOHOJ%26dib%3DeyJ2IjoiMSJ9.urohL2km_b63T36Wq3YoqcXWRZdGqLatJ-CrmP0jueQSG6mGv6COA96WQO1p19vhN0q7upElwwNUDq3bcpyFzTa8JrO1CXNAlFqwxZyUqdyLzEIlJ9aqJsn42tVGvfZSVuh_JoCS-zawQGSoAbjymMp150GKDLteS2tRTTOFu7yeHhFL3Nv-XxlaiDM1pUiWr0E7bnlCY2noiLf4oQ7PQ3ZaeMDrddyTbMQLFSMurG0.hsxadK2Xc_lSmd9DXqA4F-eNLVIL1emKuBFTRjjvZsY%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobiles%26qid%3D1712051389%26sprefix%3Dsamsung%2Bmobile%252Caps%252C215%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1")
 
 """
 insert_product('POCO C55 Cool Blue', 'Description of POCO C55 Cool Blue', 199.99, 50, 'https://www.amazon.in/POCO-C55-Cool-Blue-128/dp/B0BX9WNP7W/?_encoding=UTF8&ref_=dlx_gate_sd_dcl_tlt_88cdcaa6_dt_pd_gw_unk&pd_rd_w=Dm4QT&content-id=amzn1.sym.9e4ae409-2145-4395-aa6e-45d7f3e95c3e&pf_rd_p=9e4ae409-2145-4395-aa6e-45d7f3e95c3e&pf_rd_r=EBGNCYQP11R0ZWTA9C5D&pd_rd_wg=G81ec&pd_rd_r=fd976c3e-8e98-4c41-846c-a41afd6be398&th=1')

@@ -6,14 +6,15 @@ from app import app, db
 from app.forms import LoginForm, RegistrationForm
 from app.models import User,Product,Wishlist
 
-
+with app.app_context():
+    products = Product.query.all()
+sorted_products = sorted(products, key=lambda x: (x.name, x.price))
 @app.route('/')
 @app.route('/index')
 @login_required
 def index():
     # Fetch products from the database
-    products = Product.query.all()
-    return render_template('index.html', title='Home', products=products)
+    return render_template('index.html', title='Home', products=sorted_products)
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -85,3 +86,12 @@ def remove_from_wishlist(product_id):
 def wishlist():
     wishlist_items = current_user.wishlist.all()
     return render_template('wishlist.html', title='Wishlist', wishlist_items=wishlist_items)
+
+@app.route('/search')
+def search():
+    query = request.args.get('query')
+    # Perform search logic here (e.g., query the database)
+    products = Product.query.filter(Product.name.ilike(f'%{query}%')).all()
+    sorted_products = sorted(products, key=lambda x: (x.name, x.price))
+    return render_template('search_results.html', query=query, products=sorted_products)
+
